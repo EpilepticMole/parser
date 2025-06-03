@@ -1,0 +1,19 @@
+supar.models.const package
+==========================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   supar.models.const.crf
+   supar.models.const.vae_crf
+
+Module contents
+---------------
+
+.. automodule:: supar.models.const
+   :members:
+   :undoc-members:
+   :show-inheritance:
