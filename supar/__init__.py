@@ -21,7 +21,7 @@ PARSER = {
 }
 
 SRC = {
-    'github': 'https://github.com/EpilepticMole/parser/releases/download/Embedding'
+    'github': 'https://github.com/EpilepticMole/parser/releases/download/embedding'
 }
 NAME = {
     'con-crf-en': 'ptb.crf.con.lstm.char',
