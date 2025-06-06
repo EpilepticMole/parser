@@ -20,10 +20,8 @@ def test_parse():
                        'ru': ['Она', 'любит', 'играть', 'в', 'теннис', '.'],
                        'he': ['היא', 'נהנית', 'לשחק', 'טניס', '.']}
     for name, model in supar.NAME.items():
-        if 'roberta' in name or 'electra' in name or 'xlmr' in name:
-            continue
-        with open("tested_models.log", "a") as f:
-            f.write(f"Testing {name}\n")
+        # if 'roberta' in name or 'electra' in name or 'xlmr' in name:
+        #     continue
         parser = Parser.load(name, reload=False)
         if name.endswith(('en', 'zh')):
             lang = name[-2:]
