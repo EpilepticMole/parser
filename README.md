@@ -1,6 +1,6 @@
 # :rocket: SuPar VAE
 
-A Python package designed for structured prediction trying to implement a Latent Parser using a VAE. I based my work on the [Constituency Parser](https://github.com/yzhangcs/parser) of Yu Zhang.
+A Python package designed for structured prediction trying to implement a Latent Parser using a VAE. I based my work on the Constituency [Parser](https://github.com/yzhangcs/parser) of Yu Zhang.
 
 * Constituency Parser
   * CRF ([Zhang et al., 2020b](https://www.ijcai.org/Proceedings/2020/560/))
